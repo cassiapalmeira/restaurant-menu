@@ -1,0 +1,1 @@
+Esse projeto foi inspirado por um dos desafios do freeCodeCamp (que propunha a criação de um menu de restaurante).
