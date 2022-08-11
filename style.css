@@ -8,26 +8,42 @@ body {
     background-image: url('imagens/image5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     background-attachment: fixed;
     font-family: 'Arima', sans-serif;
-    font-weight: 300;
+    margin-right: 20px;
 }
 
 .menu { /* classe da div container */
     background-color: #fcefb4;
-    max-width: 500px;
-    margin: auto;
     padding: 30px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 600px;
+    margin: auto; 
+    margin-bottom: 30px; 
 }
 
-.itens p { /* os parágrafos descendentes da classe "itens" */
-    display: inline-block;
+.menu header > h1 {
+    font-size: 2.5em;
+}
+
+.menu header > p {
+    padding-bottom: 30px;
+    color: #f55050;
+    font-weight: 700;
+    text-align: center;
 }
 
 h1, h2 {
     font-family: 'Fredoka One', cursive;
     text-align: center;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.384);
     color: #a14545;
+}
+
+h2 {
+    margin-bottom: 0px;
 }
 
 h3 {
@@ -36,18 +52,15 @@ h3 {
     color: #a14545;
 }
 
+.itens p { /* os parágrafos descendentes da classe "itens" */
+    display: inline-block;
+}
+
 img {
     width: 50px;
     display: block; /* a imagem vai ser mostrada em bloco */
     margin-right: auto; 
     margin-left: auto;
-}
-
-header > p {
-    text-align: center;
-    font-family: 'Arima', sans-serif;
-    font-weight: 400;
-    margin-bottom: 10%;
 }
 
 hr {
@@ -78,5 +91,6 @@ a {
 
 a:hover {
     color: brown;
+    font-weight: 700;
     text-decoration: underline;
 }
