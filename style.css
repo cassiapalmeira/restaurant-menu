@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); 
 
 body {
-    /*background-color: #e7b5a8;*/
-    background-image: url(imagens/image5.jpg);
+    background-color: #e7b5a8;
+    background-image: url('imagens/image5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
